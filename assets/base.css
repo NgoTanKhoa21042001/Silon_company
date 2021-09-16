@@ -1,0 +1,118 @@
+:root {
+  --top_header: #fff7f5;
+  --header: #fbfdff;
+  --border: #ecedee;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #f7071f;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #888;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #f0ebeb;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #fd4254;
+  --light: #f8f9fa;
+  --text: #343a40;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+span {
+  /* display: block; */
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  height: 400vh;
+  /* padding: 20px; */
+  /* background-color: rgba(0,0,0,.05); */
+}
+
+.boxed {
+  width: 50px;
+  height: 50px;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes botoomToRight {
+  from {
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  to {
+    opacity: 0;
+    margin-top: 20px;
+  }
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+@keyframes headerNotiGrowth {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

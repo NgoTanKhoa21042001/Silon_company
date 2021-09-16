@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silon</title>
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/grid.css">
+  <link rel="stylesheet" href="./assets/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <main class="app">
+      <!-- BEGIN HEADER -->
+      <header class="header">
+        <nav class="header__top-nav">
+          <ul class="header__top-address">
+            <li class="header__top-list">
+              <a href="#" class="header__top-link">PHONE: +01 256 25 235</a>
+            </li>
+            <li class="header__top-list">
+              <a href="#" class="header__top-link"> EMAIL: INFO@EISER.COM</a>
+            </li>
+          </ul>
+          <ul class="header__top-tell">
+            <li class="header__top-list">
+              <a href="#" class="header__top-link">GIFT CARD</a>
+            </li>
+            <li class="header__top-list">
+              <a href="#" class="header__top-link">TRACK ORDER</a>
+            </li>
+            <li class="header__top-list">
+              <a href="#" class="header__top-link">LANGUAGE</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="navbar">
+          <img src="./image/logo.png" alt="" class="image-logo">
+          <ul class="menu">
+            <li class="list-menu">
+              <a href="" class="link-menu child_list">HOME
+                <i class="icon-down fas fa-angle-down"></i>
+              </a>
+              <nav class="child">
+                <ul class="list-child">
+                  <a href="#" class="item-child">
+                    Home 1
+                  </a>
+                  <a href="#" class="item-child">
+                    Home 2
+                  </a>
+                  <a href="#" class="item-child">
+                    Home 3
+                  </a>
+                </ul>
+              </nav>
+            </li>
+            <li class="list-menu">
+              <a href="" class="link-menu">ABOUT</a>
+            </li>
+            <li class="list-menu">
+              <a href="" class="link-menu">SERVICES</a>
+            </li>
+            <li class="list-menu">
+              <a href="" class="link-menu">PROJECTS</a>
+            </li>
+            <li class="list-menu">
+              <a href="" class="link-menu">BLOG</a>
+            </li>
+            <li class="list-menu">
+              <a href="" class="link-menu">CONTACT</a>
+            </li>
+          </ul>
+          <div class="menu-icon">
+            <label for="nav-mobile-input" class="icon-link__bars">
+              <i class="icon fas fa-bars"></i>
+            </label>
+            <a href="#" class="icon-link">
+              <i class="icon fas fa-search"></i>
+            </a>
+            <a href="#" class="icon-link">
+              <i class="icon fas fa-cart-plus"></i>
+              <span class="number-cart">0</span>
+            </a>
+            <a href="#" class="icon-link">
+              <i class="icon fas fa-heart"></i>
+              <span class="number-heart">09</span>
+            </a>
+          </div>
+        </nav>
+
+        <!-- Mobile -->
+        <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+        <label for="nav-mobile-input" class="nav__overlay"></label>
+        <nav class="nav__mobile">
+          <label for="nav-mobile-input" class="nav-mobile__close">
+            <i class="icon-close fas fa-times"></i>
+          </label>
+          <ul class="menu__mobile">
+            <li class="list-menu__mobile">
+              <a href="" class="link-menu__mobile">HOME
+              </a>
+            </li>
+            <li class="list-menu__mobile">
+              <a href="" class="link-menu__mobile">ABOUT</a>
+            </li>
+            <li class="list-menu__mobile">
+              <a href="" class="link-menu__mobile">SERVICES</a>
+            </li>
+            <li class="list-menu__mobile">
+              <a href="" class="link-menu__mobile">PROJECTS</a>
+            </li>
+            <li class="list-menu__mobile">
+              <a href="" class="link-menu__mobile">BLOG</a>
+            </li>
+            <li class="list-menu__mobile">
+              <a href="" class="link-menu__mobile">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- END HEADER -->
+      <!-- BEGIN CONTAINER -->
+      <div class="container">
+        <!-- SLIDER -->
+        <div class="slider">
+          <div class="container-fluid">
+            <div class="grid wide">
+              <div class="row">
+                <div class="col l-6 m-12 c-12">
+                  <div class="descript-slide">
+                    <span class="text-slider">ULTIMATE COLLECTION</span>
+                    <h1 class="header-slider">Complete Women <br> Fashion Here</h1>
+                    <button class="btn-submit">SHOP NOW</button>
+                  </div>
+                </div>
+                <div class="col l-6 m-12 c-12">
+                  <div class="image-slide">
+                    <img src="./image/girl.png" alt="" class="image-slider">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="container-slider">
+            <div class="description-slider">
+              <span class="text-slider">ULTIMATE COLLECTION</span>
+              <h1 class="header-slider">Complete Women <br> Fashion Here</h1>
+              <button class="btn-submit">SHOP NOW</button>
+            </div>
+            <img src="./image/girl.png" alt="" class="image-slider">
+          </div> -->
+        </div>
+        <!-- END SLIDER -->
+        <!-- PRODUCTS -->
+          <div class="products">
+            <div class="grid wide">
+              <h1 class="heading-products" style="margin-top:50px;">FEATURED PRODUCT</h1>
+              <div class="row">
+                <div class="col l-4 m-4">
+                  <div class="item-product">
+                    <img src="./image/girl1.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon-product far fa-eye"></i>
+                      <i class="icon-product far fa-heart"></i>
+                      <i class="icon-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-4 m-4">
+                  <div class="item-product">
+                    <img src="./image/girl2.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon-product far fa-eye"></i>
+                      <i class="icon-product far fa-heart"></i>
+                      <i class="icon-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-4 m-4">
+                  <div class="item-product">
+                    <img src="./image/girl3.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon-product far fa-eye"></i>
+                      <i class="icon-product far fa-heart"></i>
+                      <i class="icon-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- END PRODUCTS -->
+        <!-- SALE OFF -->
+        <div class="sale-off">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-6 m-12 c-12">
+                <div class="description-sale">
+                  <h1 class="heading-sale">50% OFF</h1>
+                  <h2 class="text-sale">ALL WOMEN’S COLLECTION</h2>
+                  <button class="btn-submit">SHOP NOW</button>
+                </div>
+              </div>
+              <div class="col l-6 m-12 c-12">
+                <img src="./image/girl5.png" alt="" class="image-sale">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END SALE OFF -->
+        <!-- POPULAR PRODUCTS -->
+          <div class="popular-products">
+            <div class="grid wide">
+              <h1 class="header__popular-product">MOST POPULAR</h1>
+              <div class="owl-carousel owl-theme">
+                <div class="item-product">
+                  <img src="./image/girl1.jpeg" alt="" class="image-product"/>
+                  <div class="item-description">
+                    <a class="header-description">Red Women Purses</a>
+                    <a class="item-rate">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </a>
+                    <div class="item-rice">$35</div>
+                  </div>
+                  <a class="feedback">
+                    <i class="icon2-product far fa-eye"></i>
+                    <i class="icon2-product far fa-heart"></i>
+                    <i class="icon2-product fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+                <div class="item-product">
+                  <img src="./image/baby.jpeg" alt="" class="image-product"/>
+                  <div class="item-description">
+                    <a class="header-description">Red Women Purses</a>
+                    <a class="item-rate">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </a>
+                    <div class="item-rice">$35</div>
+                  </div>
+                  <a class="feedback">
+                    <i class="icon2-product far fa-eye"></i>
+                    <i class="icon2-product far fa-heart"></i>
+                    <i class="icon2-product fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+                <div class="item-product">
+                  <img src="./image/girl6.jpeg" alt="" class="image-product"/>
+                  <div class="item-description">
+                    <a class="header-description">Red Women Purses</a>
+                    <a class="item-rate">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </a>
+                    <div class="item-rice">$35</div>
+                  </div>
+                  <a class="feedback">
+                    <i class="icon2-product far fa-eye"></i>
+                    <i class="icon2-product far fa-heart"></i>
+                    <i class="icon2-product fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+                <div class="item-product">
+                  <img src="./image/girl7.jpeg" alt="" class="image-product"/>
+                  <div class="item-description">
+                    <a class="header-description">Red Women Purses</a>
+                    <a class="item-rate">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </a>
+                    <div class="item-rice">$35</div>
+                  </div>
+                  <a class="feedback">
+                    <i class="icon2-product far fa-eye"></i>
+                    <i class="icon2-product far fa-heart"></i>
+                    <i class="icon2-product fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+                <div class="item-product">
+                  <img src="./image/girl8.jpeg" alt="" class="image-product"/>
+                  <div class="item-description">
+                    <a class="header-description">Red Women Purses</a>
+                    <a class="item-rate">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </a>
+                    <div class="item-rice">$35</div>
+                  </div>
+                  <a class="feedback">
+                    <i class="icon2-product far fa-eye"></i>
+                    <i class="icon2-product far fa-heart"></i>
+                    <i class="icon2-product fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- END POPULAR PRODUCTS -->
+        <!-- SUPPORT -->
+          <div class="support">
+            <div class="grid wide">
+              <div class="row">
+                <div class="col l-3 m-6 c-12">
+                  <div class="support-item">
+                    <img src="./image/gold.png" alt="" class="image-item__support">
+                    <h2 class="item-description__support">MONEY BACK GURANTEE</h2>
+                    <span class="item-text__support">Great fill signs he evening</span>
+                  </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                  <div class="support-item">
+                    <img src="./image/van.png" alt="" class="image-item__support">
+                    <h2 class="item-description__support">FREE DELIVERY</h2>
+                    <span class="item-text__support">Great fill signs he evening</span>
+                  </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                  <div class="support-item">
+                    <img src="./image/headphone.png" alt="" class="image-item__support">
+                    <h2 class="item-description__support">ALWAY SUPPORT</h2>
+                    <span class="item-text__support">Great fill signs he evening</span>
+                  </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                  <div class="support-item">
+                    <img src="./image/defender.png" alt="" class="image-item__support">
+                    <h2 class="item-description__support">SECURE PAYMENT</h2>
+                    <span class="item-text__support">Great fill signs he evening</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- END SUPPORT -->
+        <!-- TRENDING PRODUCT -->
+          <div class="trending-products">
+            <div class="grid wide">
+              <h1 class="trending-products__header">TRENDING PRODUCTS</h1>
+              <div class="row">
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl9.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl10.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl11.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl12.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="clear"></div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl13.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl14.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl15.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col l-3 m-4 m-6 c-12">
+                  <div class="item-product">
+                    <img src="./image/girl16.jpeg" alt="" class="image-product"/>
+                    <div class="item-description">
+                      <a class="header-description">Red Women Purses</a>
+                      <a class="item-rate">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </a>
+                      <div class="item-rice">$35</div>
+                    </div>
+                    <a class="feedback">
+                      <i class="icon2-product far fa-eye"></i>
+                      <i class="icon2-product far fa-heart"></i>
+                      <i class="icon2-product fas fa-shopping-cart"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- END TRENDING PRODUCT -->
+        <!-- SILON JOURNAL -->
+          <div class="silon-journal">
+            <div class="grid wide">
+              <h1 class="header-silon">SILON JOURNAL</h1>
+              <div class="row">
+                <div class="col l-4 m-12 c-12">
+                  <div class="silon-item">
+                    <img src="./image/girl17.jpg" alt="" class="image-silon" id="image-btn">
+                    <div class="silon-body">
+                      <a href="#" class="silon-date">07 July, 2019</a>
+                      <a href="#" class="silon-description">Were divided land his creature which <br> have evening subdue</a>
+                      <div class="silon-feedback">
+                        <a href="" class="post-meta category">
+                          <i class="ti-box fas fa-box"></i>
+                          Women Fashion
+                        </a>
+                        <a href="" class="post-meta comments">
+                          <i class="ti-comments far fa-comments"></i>
+                          2 Comments
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-12 c-12">
+                  <div class="silon-item">
+                    <img src="./image/girl18.jpg" alt="" class="image-silon" id="image-btn">
+                    <div class="silon-body">
+                      <a href="#" class="silon-date">07 July, 2019</a>
+                      <a href="#" class="silon-description">Were divided land his creature which <br> have evening subdue</a>
+                      <div class="silon-feedback">
+                        <a href="" class="post-meta category">
+                          <i class="ti-box fas fa-box"></i>
+                          Women Fashion
+                        </a>
+                        <a href="" class="post-meta comments">
+                          <i class="ti-comments far fa-comments"></i>
+                          2 Comments
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-12 c-12">
+                  <div class="silon-item">
+                    <img src="./image/girl19.jpg" alt="" class="image-silon" id="image-btn">
+                    <div class="silon-body">
+                      <a href="#" class="silon-date">07 July, 2019</a>
+                      <a href="#" class="silon-description">Were divided land his creature which <br> have evening subdue</a>
+                      <div class="silon-feedback">
+                        <a href="" class="post-meta category">
+                          <i class="ti-box fas fa-box"></i>
+                          Women Fashion
+                        </a>
+                        <a href="" class="post-meta comments">
+                          <i class="ti-comments far fa-comments"></i>
+                          2 Comments
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--END SILON JOURNAL -->
+        <!--BEGIN FOLLOW US-->
+          <div class="follow-us">
+            <div class="grid wide">
+              <h1 class="header-follow">FOLLOW US
+              </h1>
+              <div class="row">
+                <div class="col l-3 m-6 c-12">
+                  <a href="#" class="item-follow">
+                    <img src="./image/girl20.jpg" alt="" class="image-product__follow">
+                    <i class="icon-ins fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                  <a href="#" class="item-follow">
+                    <img src="./image/girl21.jpg" alt="" class="image-product__follow">
+                    <i class="icon-ins fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                  <a href="#" class="item-follow">
+                    <img src="./image/girl22.jpg" alt="" class="image-product__follow">
+                    <i class="icon-ins fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                  <a href="#" class="item-follow">
+                    <img src="./image/girl23.jpg" alt="" class="image-product__follow">
+                    <i class="icon-ins fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--END FOLLOW US-->
+      </div>
+      <!-- END CONTAINER -->
+      <!-- BEGIN FOOTER -->
+      <footer class="footer">
+        <div class="container-footer">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-3 m-12 c-12">
+                <div class="head-footer">ABOUT US</div>
+                <ul class="footer-item">
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Who we are</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Work With US</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Become a supplier</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Investor relations</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Our devices</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Affiliate program</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col l-3 m-12 c-12">
+                <div class="head-footer">USEFUL LINKS</div>
+                <ul class="footer-item">
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Who we are</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Work With US</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Become a supplier</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Investor relations</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Our devices</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Affiliate program</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col l-3 m-12 c-12">
+                <div class="head-footer">ONLINE SHOPPING</div>
+                <ul class="footer-item">
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Who we are</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Work With US</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Become a supplier</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Investor relations</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Our devices</a>
+                  </li>
+                  <li class="footer-list">
+                    <a href="#" class="footer-link">Affiliate program</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col l-3 m-12 c-12">
+                <div class="item-footer__socials">
+                  <div class="head-footer__socials">EXPERIENCE APP ON MOBILE</div>
+                  <div class="button-footer">
+                    <button class="gg-play">
+                      <i class="icon-footer fas fa-robot"></i>
+                      <p class="descript">
+                      <span style="display: block; margin-right: 22px; color: var(--danger);">Get it on</span>
+                      Google Play
+                      </p>
+                    </button>
+                    <button class="app-store native">
+                      <i class="icon-footer1 fab fa-apple"></i>
+                      <p class="descript">
+                        <span style="display: block; margin-right: 11px; color: var(--white);">Get it on
+                        </span>
+                        <span style = "color: var(--white);">App Store</span>
+                        </p>
+                    </button>
+                  </div>
+                  <div class="head-footer__social">ONLINE SHOPPING</div>
+                  <div class="footer-socials">
+                    <a href="https://www.facebook.com/khoa.tan.1654" class="footer-link">
+                      <i class="icon-social fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/NgoFgw" class="footer-link">
+                      <i class="icon-social fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="footer-link">
+                      <i class="icon-social fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="footer-link">
+                      <i class="icon-social fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="text-footer">
+            Copyright © 2019 <span style="color: var(--danger);">themeies.com</span>. All rights reserved.
+          </span>
+        </div>
+      </footer>
+      <!-- END FOOTER -->
+    </main>
+    <!-- Own CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- End Own Carousel -->
+    <!-- SCRIPT -->
+    <script src="./js/app.js"></script>
+    <!-- END SCRIPT -->
+  </body>
+</html>
